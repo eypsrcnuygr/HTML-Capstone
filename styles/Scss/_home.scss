@@ -6,6 +6,16 @@
 //   height: 85%;
 // }
 
+$color-red : #E45324;
+nav {
+  background-color: $color-red;
+  .icon-colorized {
+    &:hover {
+      color: rgb(209, 209, 209) !important;
+    }
+  }
+}
+
 .section-1 {
   opacity: 0.9;
 
@@ -30,11 +40,17 @@
   }
 
   form {
-    background-color: rgb(204, 202, 202);
+    background-color: rgb(209, 209, 209);
     opacity: 0.9;
     width: 90%;
     margin: 0 auto;
     border-radius: 10px;
+  }
+
+  fieldset {
+    button {
+      background-color: $color-red;
+    }
   }
 
   
@@ -47,5 +63,8 @@
     border: none;
     z-index: 2;
     opacity: 0.9;
+    &:hover {
+      background-color: rgb(209, 215, 215);
+    }
   }
 }

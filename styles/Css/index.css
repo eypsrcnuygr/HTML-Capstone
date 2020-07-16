@@ -7161,6 +7161,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+nav {
+  background-color: #E45324; }
+  nav .icon-colorized:hover {
+    color: #d1d1d1 !important; }
+
 .section-1 {
   opacity: 0.9; }
   .section-1::before {
@@ -7179,11 +7184,13 @@ a.text-dark:hover, a.text-dark:focus {
   .section-1 .section-1-h3 {
     padding-top: 30vh; }
   .section-1 form {
-    background-color: #cccaca;
+    background-color: #d1d1d1;
     opacity: 0.9;
     width: 90%;
     margin: 0 auto;
     border-radius: 10px; }
+  .section-1 fieldset button {
+    background-color: #E45324; }
   .section-1 > button {
     margin-top: 20px;
     height: 50px;
@@ -7193,3 +7200,5 @@ a.text-dark:hover, a.text-dark:focus {
     border: none;
     z-index: 2;
     opacity: 0.9; }
+    .section-1 > button:hover {
+      background-color: #d1d7d7; }
