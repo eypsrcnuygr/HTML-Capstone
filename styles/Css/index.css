@@ -7202,3 +7202,44 @@ nav {
     opacity: 0.9; }
     .section-1 > button:hover {
       background-color: #d1d7d7; }
+
+.section-3 .section-3-background {
+  background-image: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80");
+  background-position: center; }
+
+.section-3 .mixed-icons-first {
+  position: relative;
+  top: 12px;
+  left: 24px; }
+
+.section-3 .mixed-icons-second {
+  position: relative;
+  top: 21px;
+  left: 4px; }
+
+.section-3 .mixed-icons-third {
+  position: relative;
+  top: 15px; }
+
+.section-3 .section-3-background-2 {
+  background-image: url("https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  background-position: center; }
+
+.section-3 .section-3-background-3 {
+  background-image: url("https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-position: 25%; }
+
+.section-3 > :nth-child(1) {
+  background-color: #D35A4D; }
+  .section-3 > :nth-child(1) button {
+    color: #D35A4D;
+    border: none; }
+
+.section-3 > :nth-child(2) {
+  background-color: #999999; }
+  .section-3 > :nth-child(2) button {
+    color: #999999;
+    border: none; }
+
+.section-3 > :nth-child(3) {
+  background-color: #2350da; }

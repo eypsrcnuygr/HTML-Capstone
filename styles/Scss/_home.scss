@@ -7,6 +7,7 @@
 // }
 
 $color-red : #E45324;
+
 nav {
   background-color: $color-red;
   .icon-colorized {
@@ -66,5 +67,59 @@ nav {
     &:hover {
       background-color: rgb(209, 215, 215);
     }
+  }
+}
+
+.section-3 {
+  .section-3-background {
+    background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80');
+    background-position: center;
+  }
+
+  .mixed-icons-first {
+    position: relative;
+    top: 12px;
+    left: 24px;
+  }
+
+  .mixed-icons-second {
+    position: relative;
+    top: 21px;
+    left: 4px;
+  }
+
+  .mixed-icons-third {
+    position: relative;
+    top: 15px;
+  }
+
+  .section-3-background-2 {
+    background-image: url('https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');
+    background-position: center;
+  }
+
+  .section-3-background-3 {
+    background-image: url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-position: 25%;
+  }
+
+  &>:nth-child(1) {
+    background-color:#D35A4D;
+
+    button {
+      color: #D35A4D;
+      border: none;
+    }
+  }
+  &>:nth-child(2) {
+    background-color: #999999;
+
+    button {
+      color: #999999;
+      border: none;
+    }
+  }
+  &>:nth-child(3) {
+    background-color: rgb(35, 80, 218);
   }
 }
