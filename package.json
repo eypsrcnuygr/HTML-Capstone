@@ -1,0 +1,35 @@
+{
+  "name": "html-capstone",
+  "version": "1.0.0",
+  "description": "My Capstone Project at Microverse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass ./styles/Scss/ --output ./styles/Css",
+    "build:watch": "node-sass --watch ./styles/Scss/ --output ./styles/Css/",
+    "modified": "postcss --use autoprefixer ./styles/Css/*.css --dir ./build/",
+    "modified:watch": "postcss --use autoprefixer --watch ./styles/Css/*.css --dir ./build/",
+    "buildtwo:watch": "npm run build:watch & npm run modified:watch"
+  },
+  "author": "Eyüp Sercan UYGUR",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "bootstrap": "^4.5.0",
+    "postcss-cli": "^7.1.1",
+    "rfs": "^9.0.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
+}
