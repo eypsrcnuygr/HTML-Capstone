@@ -148,6 +148,9 @@ nav {
       color: #E07C62;
       border: none;
       max-width: 200px;
+      &:hover {
+        background-color: rgb(233, 227, 227);
+      }
     }
   }
 
@@ -159,6 +162,9 @@ nav {
       color: #A8AEAA;
       border: none;
       max-width: 200px;
+      &:hover {
+        background-color: rgb(233, 227, 227);
+      }
     }
   }
 

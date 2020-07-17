@@ -7263,6 +7263,8 @@ nav {
     color: #E07C62;
     border: none;
     max-width: 200px; }
+    .section-3 > :nth-child(1) button:hover {
+      background-color: #e9e3e3; }
 
 .section-3 > :nth-child(2) {
   background-color: #A8AEAA;
@@ -7271,6 +7273,8 @@ nav {
     color: #A8AEAA;
     border: none;
     max-width: 200px; }
+    .section-3 > :nth-child(2) button:hover {
+      background-color: #e9e3e3; }
 
 .section-3 > :nth-child(3) {
   background-color: #509BD7;
