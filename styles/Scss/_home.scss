@@ -95,6 +95,17 @@ nav {
   }
 }
 
+.section-2 {
+  article {
+    i,
+    h6 {
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
 .section-3 {
   .section-3-background {
     background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80');
