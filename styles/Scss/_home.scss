@@ -31,7 +31,7 @@ nav {
 .section-1 {
   opacity: 0.9;
   position: relative;
-
+  height: 85%;
   &::before {
     content: "";
     background: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80') no-repeat;
@@ -39,7 +39,7 @@ nav {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 85%;
     z-index: 0;
     background-size: cover;
     background-position: center;
@@ -59,11 +59,21 @@ nav {
     width: 90%;
     margin: 0 auto;
     border-radius: 10px;
+
+    & h5 {
+      font-size: 0.9rem;
+    }
   }
 
   fieldset {
     button {
       background-color: $color-red;
+      font-size: 0.9rem;
+      border: none;
+
+      &:hover {
+        background-color: red;
+      }
     }
   }
 
@@ -176,6 +186,9 @@ footer {
   .section-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .section-2 {
@@ -187,7 +200,7 @@ footer {
 
   .section-3 {
     article {
-      height: 275px;
+      height: 225px;
 
       >div {
         display: flex;
@@ -199,7 +212,7 @@ footer {
     }
 
     %section-3-background-heights {
-      height: 250px;
+      height: 200px;
     }
 
     .section-3-background-2,
@@ -208,4 +221,36 @@ footer {
       @extend %section-3-background-heights
     }
   }
+}
+
+@media (min-width: 1024px) {
+  .section-1 {
+    form {
+      max-width: 750px;
+    }
+  }
+
+ .section-2 {
+   padding-right: 10%;
+   padding-left: 10%;
+   grid-gap: 85px;
+   margin: 0 auto;
+ }
+  
+ .section-3 {
+   article {
+     height: 250px;
+   }
+
+   %section-3-background-heights-big {
+     height: 225px;
+   }
+
+   .section-3-background,
+   .section-3-background-2,
+   .section-3-background-3 {
+     @extend %section-3-background-heights-big
+   }
+ }
+
 }
