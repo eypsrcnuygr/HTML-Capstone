@@ -147,3 +147,50 @@ nav {
 footer {
   background-color: rgb(0, 0, 0);
 }
+
+@media (min-width: 767px) {
+  .section-1 {
+    form {
+      width: 50%;
+    }
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-2 {
+    >h6 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+
+  .section-3 {
+    article {
+      height: 275px;
+      >div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+      }
+    }
+
+    %section-3-background-heights {
+      height: 250px;
+    }
+
+    .section-3-background-2,
+    .section-3-background,
+    .section-3-background-3 {
+      @extend %section-3-background-heights
+    }
+  }
+
+  footer 
+  >:nth-child(3) {
+    font-size: 0.6rem;
+  }
+}

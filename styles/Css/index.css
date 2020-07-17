@@ -7263,3 +7263,27 @@ nav {
 
 footer {
   background-color: black; }
+
+@media (min-width: 767px) {
+  .section-1 form {
+    width: 50%; }
+  .section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .section-2 > h6 {
+    grid-column-start: 1;
+    grid-column-end: 3; }
+  .section-3 article {
+    height: 275px; }
+    .section-3 article > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem; }
+  .section-3 .section-3-background-2,
+  .section-3 .section-3-background,
+  .section-3 .section-3-background-3 {
+    height: 250px; }
+  footer > :nth-child(3) {
+    font-size: 0.6rem; } }
