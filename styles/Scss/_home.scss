@@ -9,13 +9,14 @@
 $color-red : #E45324;
 
 body {
-  font-family: acumin-pro,sans-serif !important;
+  font-family: acumin-pro, sans-serif !important;
   font-weight: 400;
   font-style: normal;
 }
 
 nav {
   background-color: $color-red;
+
   .icon-colorized {
     &:hover {
       color: rgb(209, 209, 209) !important;
@@ -43,6 +44,7 @@ nav {
     background-size: cover;
     background-position: center;
   }
+
   &:hover {
     opacity: 1;
   }
@@ -65,7 +67,7 @@ nav {
     }
   }
 
-  
+
   >button {
     margin-top: 20px;
     height: 50px;
@@ -75,6 +77,7 @@ nav {
     border: none;
     z-index: 2;
     opacity: 0.9;
+
     &:hover {
       background-color: rgb(209, 215, 215);
     }
@@ -124,13 +127,14 @@ nav {
   }
 
   &>:nth-child(1) {
-    background-color:#E07C62;
+    background-color: #E07C62;
 
     button {
       color: #E07C62;
       border: none;
     }
   }
+
   &>:nth-child(2) {
     background-color: #A8AEAA;
 
@@ -139,13 +143,27 @@ nav {
       border: none;
     }
   }
+
   &>:nth-child(3) {
-    background-color:#509BD7;
+    background-color: #509BD7;
   }
 }
 
 footer {
   background-color: rgb(0, 0, 0);
+
+  & p {
+    font-size: 0.8rem;
+  }
+
+  & button {
+    background-color: rgb(75, 73, 73);
+    color: white;
+
+    &:hover {
+      background-color: gray;
+    }
+  }
 }
 
 @media (min-width: 767px) {
@@ -154,6 +172,7 @@ footer {
       width: 50%;
     }
   }
+
   .section-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -169,6 +188,7 @@ footer {
   .section-3 {
     article {
       height: 275px;
+
       >div {
         display: flex;
         flex-direction: column;
@@ -187,10 +207,5 @@ footer {
     .section-3-background-3 {
       @extend %section-3-background-heights
     }
-  }
-
-  footer 
-  >:nth-child(3) {
-    font-size: 0.6rem;
   }
 }
