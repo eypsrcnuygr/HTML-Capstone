@@ -8,12 +8,22 @@
 
 $color-red : #E45324;
 
+body {
+  font-family: acumin-pro,sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
 nav {
   background-color: $color-red;
   .icon-colorized {
     &:hover {
       color: rgb(209, 209, 209) !important;
     }
+  }
+
+  .burger-button {
+    background-color: #E45324;
   }
 }
 
@@ -75,6 +85,9 @@ nav {
   .section-3-background {
     background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80');
     background-position: center;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .mixed-icons-first {
@@ -97,11 +110,17 @@ nav {
   .section-3-background-2 {
     background-image: url('https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');
     background-position: center;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .section-3-background-3 {
     background-image: url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     background-position: 25%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   &>:nth-child(1) {
