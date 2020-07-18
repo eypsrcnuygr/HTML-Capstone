@@ -7197,14 +7197,15 @@ nav {
     opacity: 0.9;
     width: 90%;
     margin: 0 auto;
-    border-radius: 10px; }
+    border-radius: 10px;
+    padding-bottom: 25px; }
     .section-1 form h5 {
       font-size: 0.9rem; }
-  .section-1 fieldset button {
+  .section-1 div button {
     background-color: #E45324;
     font-size: 0.9rem;
     border: none; }
-    .section-1 fieldset button:hover {
+    .section-1 div button:hover {
       background-color: red; }
   .section-1 > button {
     margin-top: 20px;

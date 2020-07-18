@@ -60,13 +60,14 @@ nav {
     width: 90%;
     margin: 0 auto;
     border-radius: 10px;
+    padding-bottom: 25px;
 
     & h5 {
       font-size: 0.9rem;
     }
   }
 
-  fieldset {
+  div {
     button {
       background-color: $color-red;
       font-size: 0.9rem;
