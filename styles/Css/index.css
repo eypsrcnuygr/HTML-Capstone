@@ -7194,7 +7194,10 @@ nav {
   .section-1:hover {
     opacity: 1; }
   .section-1 .section-1-h3 {
-    padding-top: 30vh; }
+    padding-top: 30vh;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    font-weight: 800; }
   .section-1 form {
     background-color: #d1d1d1;
     opacity: 0.9;
