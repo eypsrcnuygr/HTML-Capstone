@@ -7262,29 +7262,35 @@ nav {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.section-3 > :nth-child(1) {
+.section-3 > :nth-child(2) {
   background-color: #E07C62;
   min-height: 180px; }
-  .section-3 > :nth-child(1) button {
-    color: #E07C62;
-    border: none;
-    max-width: 200px; }
-    .section-3 > :nth-child(1) button:hover {
-      background-color: #e9e3e3; }
-
-.section-3 > :nth-child(2) {
-  background-color: #A8AEAA;
-  min-height: 180px; }
   .section-3 > :nth-child(2) button {
-    color: #A8AEAA;
+    color: #E07C62;
     border: none;
     max-width: 200px; }
     .section-3 > :nth-child(2) button:hover {
       background-color: #e9e3e3; }
 
 .section-3 > :nth-child(3) {
+  background-color: #A8AEAA;
+  min-height: 180px; }
+  .section-3 > :nth-child(3) button {
+    color: #A8AEAA;
+    border: none;
+    max-width: 200px; }
+    .section-3 > :nth-child(3) button:hover {
+      background-color: #e9e3e3; }
+
+.section-3 > :nth-child(4) {
   background-color: #509BD7;
   min-height: 180px; }
+  .section-3 > :nth-child(4) button {
+    color: #A8AEAA;
+    border: none;
+    max-width: 220px; }
+    .section-3 > :nth-child(4) button:hover {
+      background-color: #e9e3e3; }
 
 footer {
   background-color: black; }
