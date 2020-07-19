@@ -7364,34 +7364,39 @@ footer {
   .search-section-1 form {
     background-color: #EEEEEE;
     font-size: 1.2rem;
-    width: 100%; }
+    width: 100%;
+    padding-top: 35%; }
     .search-section-1 form h3 {
       color: #929399;
-      padding-top: 15%;
       width: 80%;
-      margin: 10px auto; }
-  .search-section-1 fieldset {
-    display: flex;
-    flex-direction: column; }
-    .search-section-1 fieldset > * {
+      margin: 0 auto; }
+  .search-section-1 .fieldset {
+    margin: 0 auto;
+    width: 80%; }
+    .search-section-1 .fieldset > * {
       margin: 10px auto;
       width: 80%;
       border: none; }
-    .search-section-1 fieldset label {
+    .search-section-1 .fieldset div {
+      display: flex;
+      flex-direction: column; }
+    .search-section-1 .fieldset label {
       font-weight: 700; }
-    .search-section-1 fieldset div :nth-child(1) {
+    .search-section-1 .fieldset .form-buttons :nth-child(1) {
       background-color: #457eb4;
       border-radius: 5px;
       padding: 5px 4px;
       color: white;
-      font-weight: 700; }
-    .search-section-1 fieldset div :nth-child(2) {
+      font-weight: 700;
+      width: 80px; }
+    .search-section-1 .fieldset .form-buttons :nth-child(2) {
       background-color: #e5ab5a;
       border-radius: 5px;
       padding: 5px 4px;
       color: white;
-      font-weight: 700; }
-    .search-section-1 fieldset div button {
+      font-weight: 700;
+      width: 120px; }
+    .search-section-1 .fieldset .form-buttons button {
       border: none; }
 
 .search-section-2 article {
@@ -7400,3 +7405,28 @@ footer {
   margin: 40px auto; }
   .search-section-2 article img {
     width: 90%; }
+  .search-section-2 article a {
+    text-decoration: none;
+    color: black; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .search-section-1 form {
+    padding-top: 10%;
+    margin-top: 15%;
+    font-size: 0.9rem;
+    padding-bottom: 25px; }
+    .search-section-1 form .fieldset {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .search-section-1 form .fieldset > * {
+        width: fit-content;
+        margin: 10px 4px; }
+      .search-section-1 form .fieldset .form-buttons {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center; }
+        .search-section-1 form .fieldset .form-buttons button {
+          margin-right: 10px; } }
