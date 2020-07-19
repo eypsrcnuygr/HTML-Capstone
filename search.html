@@ -36,11 +36,64 @@
       </div>
     </nav>
   </header>
-
-
-
+  <main>
+    <section class="search-section-1 mt-3">
+      <form class="mt-5">
+        <h3>Filter by name, category, continent, distance and price range</h3>
+        <fieldset>
+          <label for="name">Sort by name</label>
+          <input name="name" type="text">
+          <label for="category">Category</label>
+          <select id="category" name="category">
+            <option value="music" >Music</option>
+            <option value="sport" >Sport</option>
+            <option value="theater" >Theater</option>
+            <option value="family" >Family</option>
+            <option value="education and more" >Education & more</option>
+          </select>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Ru" >Ru</option>
+            <option value="Ge" >Ge</option>
+            <option value="Fr" >Fr</option>
+            <option value="Uk" >Uk</option>
+            <option value="Sp" >Sp</option>
+            <option value="Tr" >Tr</option>
+            <option value="It" >It</option>
+            <option value="Gr" >Gr</option>
+            <option value="Hl" >Hl</option>
+            <option value="Bl" >Bl</option>
+            <option value="Sw" >Sw</option>
+            <option value="Dn" >Dn</option>
+          </select>
+          <label for="distance">Distance</label>
+          <select id="distance" name="distance">
+            <option value="les than 50km" >Less than 50 km</option>
+            <option value="In between 50-100km" >In between 50-100km</option>
+            <option value="In between 100-200km" >In between 100-200km</option>
+            <option value="In between 200-500km" >In between 200-500km</option>
+            <option value="More than 500km" >More than 500km</option>
+          </select>
+          <label for="price">Price</label>
+          <select id="price" name="price">
+            <option value="les than 50$" >Less than 50$</option>
+            <option value="In between 50-100$" >In between 50-100$</option>
+            <option value="In between 100-200$" >In between 100-200$</option>
+            <option value="In between 200-500$" >In between 200-500$</option>
+            <option value="More than 500$" >More than 500$</option>
+          </select>
+          <div>
+            <button name="search" type="button">Search</button>
+            <button name="clear" type="button">Clear Filter</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <section class="search-section-2 text-center">
+      <h3>Search Results Found 6 Event(s)</h3>
+    </section>
+  </main>
   <footer class="text-light pt-md-5">
-
     <ul class="list-unstyled d-flex flex-wrap justify-content-between justify-content-md-center flex-md-nowrap mx-2">
       <li><a class="text-light font-weight-bolder mr-lg-4 " href="">HOME</a></li>
       <li><a class="text-light font-weight-bolder mr-lg-4" href="">SEARCH</a></li>

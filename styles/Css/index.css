@@ -7206,10 +7206,10 @@ nav {
     border-radius: 10px;
     padding-bottom: 25px; }
     .section-1 form h5 {
-      font-size: 0.9rem; }
+      font-size: 1.1rem; }
   .section-1 div button {
     background-color: #E45324;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border: none; }
     .section-1 div button:hover {
       background-color: red; }
@@ -7357,3 +7357,39 @@ footer {
   .section-3 .section-3-background-3 {
     max-height: 225px;
     max-width: 225px; } }
+
+.search-section-1 {
+  margin-top: 7%;
+  width: 100%; }
+  .search-section-1 form {
+    background-color: #EEEEEE;
+    font-size: 1.2rem;
+    width: 100%; }
+    .search-section-1 form h3 {
+      color: #929399;
+      padding-top: 15%;
+      width: 80%;
+      margin: 10px auto; }
+  .search-section-1 fieldset {
+    display: flex;
+    flex-direction: column; }
+    .search-section-1 fieldset > * {
+      margin: 10px auto;
+      width: 80%;
+      border: none; }
+    .search-section-1 fieldset label {
+      font-weight: 700; }
+    .search-section-1 fieldset div :nth-child(1) {
+      background-color: #457eb4;
+      border-radius: 5px;
+      padding: 5px 4px;
+      color: white;
+      font-weight: 700; }
+    .search-section-1 fieldset div :nth-child(2) {
+      background-color: #e5ab5a;
+      border-radius: 5px;
+      padding: 5px 4px;
+      color: white;
+      font-weight: 700; }
+    .search-section-1 fieldset div button {
+      border: none; }
