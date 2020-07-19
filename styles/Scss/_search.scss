@@ -53,3 +53,15 @@
   }
 }
 
+.search-section-2 {
+  & article {
+    width: 90%;
+    text-align: center;
+    margin: 40px auto;
+
+    & img {
+      width: 90%;
+    }
+  }
+}
+

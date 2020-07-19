@@ -7393,3 +7393,10 @@ footer {
       font-weight: 700; }
     .search-section-1 fieldset div button {
       border: none; }
+
+.search-section-2 article {
+  width: 90%;
+  text-align: center;
+  margin: 40px auto; }
+  .search-section-2 article img {
+    width: 90%; }
