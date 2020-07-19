@@ -7422,7 +7422,7 @@ footer {
     .search-section-2 article h5 {
       font-weight: 700; }
     .search-section-2 article:hover, .search-section-2 article:focus {
-      transform: scale(0.9); }
+      transform: scale(0.96); }
   .search-section-2 h3 {
     color: #6F6A68; }
 
@@ -7454,7 +7454,7 @@ footer {
       grid-column-start: 1;
       grid-column-end: 3; }
     .search-section-2 article:hover, .search-section-2 article:focus {
-      transform: scale(0.9); } }
+      transform: scale(0.96); } }
 
 @media (min-width: 1025px) {
   .search-section-1 form {
@@ -7487,4 +7487,4 @@ footer {
       grid-column-start: 1;
       grid-column-end: 4; }
     .search-section-2 article:hover {
-      transform: scale(0.9); } }
+      transform: scale(0.96); } }
