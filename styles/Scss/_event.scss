@@ -31,6 +31,8 @@
       margin-top: 15px;
       margin-bottom: 10px;
       font-size: 0.9rem;
+      width: 70%;
+      text-align: center;
     }
 
     & button {
@@ -49,7 +51,67 @@
 }
 
 .event-section-2 {
+  
+  box-shadow: 0 0 1rem 0.01rem #929399;
+  width: 90%;
+    margin: 10px auto;
+  & article {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    padding: 15px;
+  }
+
+  & h4 {
+    color: red;
+    font-weight: 800;
+    margin-bottom: 25px;
+    padding-left: 12px;
+  }
+
+  & div {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(155, 154, 154);
+    margin-bottom: 5px;
+
+    & h5 {
+      font-weight: 800;
+      margin-right: 10px;
+    }
+
+    & p {
+      color: #9AC5E8;
+      font-weight: 700;
+    }
+  }
+
+  .event-section-2-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+
+    & a {
+      color: black;
+      font-weight: 600;
+    }
+
+    & p {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: black;
+    }
+
+    & i {
+      color: #9AC5E8;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.event-section-3 {
   text-align: center;
+  clear: both;
 
   & div {
     display: flex;
@@ -78,7 +140,30 @@
     margin-top: 15%;
   }
 
-  .event-section-2 {
+  .event-section-2-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+
+    & a {
+      color: black;
+      font-weight: 600;
+    }
+
+    & p {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: black !important;
+    }
+
+    & i {
+      color: #9AC5E8;
+      margin-bottom: 0;
+    }
+  }
+
+  .event-section-3 {
     margin-bottom: 20px;
   }
 }
@@ -93,10 +178,63 @@
     }
 
     .event-section-2 {
+      width: 80%;
+      margin-top: 15px;
+      margin-bottom: 30px;
+      & article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+        & h4 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+        }
+
+        & div {
+          margin: 5px 12px;
+        }
+      }
+      .event-section-2-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        border: none;
+        align-items: center;
+    
+        & > * {
+          margin-left: 5px;
+          margin-right: 5px;
+          color: black;
+        }
+    
+        & a {
+          color: black;
+          font-weight: 600;
+        }
+    
+        & p {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+    
+        & i {
+          color: #9AC5E8;
+          margin-bottom: 0;
+        }
+    
+      }
+    }
+
+    .event-section-3 {
       margin-bottom: 20px;
       & iframe {
         width: 80%;
       }
+      
   }
 }
 }
