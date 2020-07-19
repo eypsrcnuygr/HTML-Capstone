@@ -13,6 +13,13 @@
       width: 80%;
       margin: 0 auto;
     }
+
+    & input,
+    & select {
+      border: none;
+      height: 30px;
+      border-radius: 5px;
+    }
   }
 
   .fieldset {
@@ -42,6 +49,11 @@
         color: white;
         font-weight: 700;
         width: 80px;
+        border: none;
+
+        &:hover {
+          background-color: rgb(63, 104, 238);
+        }
       }
 
       & :nth-child(2) {
@@ -51,16 +63,20 @@
         color: white;
         font-weight: 700;
         width: 120px;
-      }
-
-      & button {
         border: none;
+
+        &:hover {
+          background-color: rgb(196, 129, 6);
+        }
       }
+      
     }
   }
 }
 
 .search-section-2 {
+  margin-top: 30px;
+
   & article {
     width: 90%;
     text-align: center;
@@ -74,6 +90,19 @@
       text-decoration: none;
       color: black;
     }
+
+    & h5 {
+      font-weight: 700;
+    }
+
+    &:hover,
+    &:focus {
+      transform: scale(0.9);
+    }
+  }
+
+  & h3 {
+    color: #6F6A68;
   }
 }
 
@@ -107,6 +136,78 @@
             margin-right: 10px;
           }
         }
+      }
+    }
+  }
+
+  .search-section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    & h3 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    & article {
+      
+      &:hover,
+      &:focus {
+        transform: scale(0.9);
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .search-section-1 {
+    form {
+      padding-top: 5%;
+      margin-top: 7%;
+      font-size: 0.9rem;
+      padding-bottom: 25px;
+
+      & .fieldset {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+        &>* {
+          width: fit-content;
+          min-width: 100px;
+          margin: 10px 4px;
+        }
+
+        .form-buttons {
+          display: flex;
+          flex-direction: row;
+          justify-content: start;
+          align-items: flex-end;
+          margin-left: 20px;
+
+          & button {
+            margin-right: 10px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .search-section-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    & h3 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+
+    & article {
+      
+      &:hover {
+        transform: scale(0.9);
       }
     }
   }
