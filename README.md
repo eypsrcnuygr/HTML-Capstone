@@ -4,9 +4,7 @@
 > It is an event page around Europe and it contains 3 pages.
 > Home page, Search page, and Event page.
 
-![screenshot](./assets/Screenshot-1.png)<br><br>
-![screenshot](./assets/Screenshot-2.png)<br><br>
-![screenshot](./assets/Screenshot-3.png)<br><br> 
+![screenshot](./assets/2f995325563385.563475472fb37.png)<br><br>
 
 I was given this design of [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE)'s to follow, mirroring its structure, typography and colors as I built my own event website.
 
