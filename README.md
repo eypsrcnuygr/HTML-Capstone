@@ -38,11 +38,14 @@ I used event pictures, and event details from [Biletix](https://www.biletix.com/
 2. Navigate to your desired location to download the contents of this repository.
 
 3. Copy and paste the following code into the Terminal:
+```
 git clone https://github.com/eypsrcnuygr/HTML-Capstone.git
-
+```
 or with SSH:
 
+```
 git clone git@github.com:eypsrcnuygr/HTML-Capstone.git
+```
 
 4. Hit enter.
 
