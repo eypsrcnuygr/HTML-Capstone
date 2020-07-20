@@ -7513,7 +7513,8 @@ footer {
       width: 100%;
       display: flex;
       flex-wrap: nowrap;
-      justify-content: center; }
+      justify-content: center;
+      align-items: flex-end; }
       .search-section-1 form .fieldset > * {
         width: fit-content;
         min-width: 100px;
@@ -7526,7 +7527,8 @@ footer {
         margin-left: 20px; }
         .search-section-1 form .fieldset .form-buttons button {
           margin-right: 10px;
-          height: 30px; }
+          height: 30px;
+          margin-bottom: 0 !important; }
   .search-section-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }

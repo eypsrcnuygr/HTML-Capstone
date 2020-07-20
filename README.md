@@ -4,11 +4,17 @@
 > It is an event page around Europe and it contains 3 pages.
 > Home page, Search page, and Event page.
 
-![screenshot](./assets/Screenshot-1.png)
-![screenshot](./assets/Screenshot-2.png)
-![screenshot](./assets/Screenshot-3.png)
+![screenshot](./assets/Screenshot-1.png)<br><br>
+![screenshot](./assets/Screenshot-2.png)<br><br>
+![screenshot](./assets/Screenshot-3.png)<br><br> 
 
-It is a fully responsive page.
+I was given this design of [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE)'s to follow, mirroring its structure, typography and colors as I built my own event website.
+
+I used event pictures, and event details from [Biletix](https://www.biletix.com/anasayfa/TURKIYE/tr)'s site.
+
+## Video Presentation
+
+
 
 ## Built With
 
@@ -25,7 +31,29 @@ It is a fully responsive page.
 
 ## Getting Started
 
-**You can either check with Live Demo Link or clone the page on your local machine, install the dependencies with npm install and double click on the index.html**
+**To get this project set up on your local machine, follow these simple steps:**
+
+1. Open Terminal.
+
+2. Navigate to your desired location to download the contents of this repository.
+
+3. Copy and paste the following code into the Terminal:
+git clone https://github.com/eypsrcnuygr/HTML-Capstone.git
+
+or with SSH:
+
+git clone git@github.com:eypsrcnuygr/HTML-Capstone.git
+
+4. Hit enter.
+
+5. Once the repository has been cloned, open index.html in a browser of your choosing. From there, you may also navigate to the "Search" and "Event" pages.
+
+6. Enjoy
+
+## Prerequisities
+
+- A computer, a smartphone, or another similar device.
+- Access to the internet.
 
 ## Authors
 
@@ -48,7 +76,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Feel free to fork it and suggest us new features.
+- Thanks are owed to the designer, [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE), for his design.
+- Logo has been made from [Small Seo Tools](https://smallseotools.com/)'s site.
+- Cem Yılmaz is an popular comedian in Turkey. Check him.
 
 ## 📝 License
 

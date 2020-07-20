@@ -169,6 +169,7 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
+        align-items: flex-end;
 
         & > * {
           width: fit-content;
@@ -186,6 +187,7 @@
           & button {
             margin-right: 10px;
             height: 30px;
+            margin-bottom: 0 !important;
           }
         }
       }
