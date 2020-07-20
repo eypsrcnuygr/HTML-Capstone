@@ -7349,7 +7349,7 @@ nav {
     .section-1 > div:hover {
       background-color: #d1d7d7; }
 
-.section-2 articlei:hover,
+.section-2 article i:hover,
 .section-2 article h6:hover {
   transform: translateY(-5px); }
 

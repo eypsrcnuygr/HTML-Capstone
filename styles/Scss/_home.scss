@@ -257,11 +257,9 @@ nav {
 
 .section-2 {
   & article {
-    &i,
-    & h6 {
-      &:hover {
-        transform: translateY(-5px);
-      }
+    & i:hover,
+    & h6:hover {
+      transform: translateY(-5px);
     }
   }
 }
