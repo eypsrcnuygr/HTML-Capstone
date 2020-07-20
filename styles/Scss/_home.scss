@@ -47,14 +47,14 @@ nav {
     opacity: 1;
   }
 
-  .section-1-h3 {
+  & .section-1-h3 {
     padding-top: 30vh;
     opacity: 0.9;
     margin-bottom: 20px;
     font-weight: 800;
   }
 
-  form {
+  & form {
     background-color: rgb(209, 209, 209);
     opacity: 0.9;
     width: 90%;
@@ -67,8 +67,8 @@ nav {
     }
   }
 
-  div {
-    button {
+  & div {
+    & button {
       background-color: $color-red;
       font-size: 1rem;
       border: none;
@@ -80,7 +80,7 @@ nav {
   }
 
 
-  >div {
+  & >div {
     width: 170px;
     margin: 50px auto;
     padding: 1rem 2rem;
@@ -98,9 +98,9 @@ nav {
 }
 
 .section-2 {
-  article {
-    i,
-    h6 {
+  & article {
+    &i,
+    & h6 {
       &:hover {
         transform: translateY(-5px);
       }
@@ -112,8 +112,7 @@ nav {
   .section-3-background {
     background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80');
     background-position: center;
-    width: 200px;
-    max-height: 200px;
+    
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -138,8 +137,7 @@ nav {
   .section-3-background-2 {
     background-image: url('https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');
     background-position: center;
-    width: 200px;
-    max-height: 200px;
+    
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -147,45 +145,48 @@ nav {
   .section-3-background-3 {
     background-image: url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     background-position: 25%;
-    width: 200px;
-    max-height: 200px;
+
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  &>:nth-child(2) {
+  & >:nth-child(2) {
     background-color: #E07C62;
     min-height: 180px;
 
-    button {
+    & button {
       color: #E07C62;
       border: none;
       max-width: 200px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       &:hover {
         background-color: rgb(233, 227, 227);
       }
     }
   }
 
-  &>:nth-child(3) {
+  & >:nth-child(3) {
     background-color: #A8AEAA;
     min-height: 180px;
 
-    button {
+    & button {
       color: #A8AEAA;
       border: none;
       max-width: 200px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       &:hover {
         background-color: rgb(233, 227, 227);
       }
     }
   }
 
-  &>:nth-child(4) {
+  & >:nth-child(4) {
     background-color: #509BD7;
     min-height: 180px;
 
-    button {
+    & button {
       color: #A8AEAA;
       border: none;
       max-width: 220px;
@@ -221,7 +222,7 @@ footer {
     }
   }
 
-  .footer-last-part {
+  & .footer-last-part {
     background-color: #1F1F1F;
 
     & p {
@@ -232,7 +233,7 @@ footer {
 
 @media (min-width: 768px) {
   .section-1 {
-    form {
+    & form {
       width: 50%;
     }
   }
@@ -246,17 +247,17 @@ footer {
   }
 
   .section-2 {
-    >h6 {
+    & >h6 {
       grid-column-start: 1;
       grid-column-end: 3;
     }
   }
 
   .section-3 {
-    article {
+    & article {
       height: 225px !important;
 
-      >div {
+      & >div {
         display: flex;
         flex-direction: column;
 
@@ -280,7 +281,7 @@ footer {
 
 @media (min-width: 1024px) {
   .section-1 {
-    form {
+    & form {
       max-width: 750px;
     }
   }
@@ -293,9 +294,11 @@ footer {
   }
 
   .section-3 {
-    article {
+    & article {
       height: 250px !important;
     }
+
+ 
 
     %section-3-background-heights-big {
       max-height: 225px;
@@ -305,7 +308,7 @@ footer {
     .section-3-background,
     .section-3-background-2,
     .section-3-background-3 {
-      @extend %section-3-background-heights-big
+      @extend %section-3-background-heights-big;
     }
   }
 

@@ -7226,15 +7226,13 @@ nav {
     .section-1 > div:hover {
       background-color: #d1d7d7; }
 
-.section-2 article i:hover,
+.section-2 articlei:hover,
 .section-2 article h6:hover {
   transform: translateY(-5px); }
 
 .section-3 .section-3-background {
   background-image: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80");
   background-position: center;
-  width: 200px;
-  max-height: 200px;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -7255,16 +7253,12 @@ nav {
 .section-3 .section-3-background-2 {
   background-image: url("https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
   background-position: center;
-  width: 200px;
-  max-height: 200px;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .section-3 .section-3-background-3 {
   background-image: url("https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-position: 25%;
-  width: 200px;
-  max-height: 200px;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -7274,7 +7268,9 @@ nav {
   .section-3 > :nth-child(2) button {
     color: #E07C62;
     border: none;
-    max-width: 200px; }
+    max-width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
     .section-3 > :nth-child(2) button:hover {
       background-color: #e9e3e3; }
 
@@ -7284,7 +7280,9 @@ nav {
   .section-3 > :nth-child(3) button {
     color: #A8AEAA;
     border: none;
-    max-width: 200px; }
+    max-width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
     .section-3 > :nth-child(3) button:hover {
       background-color: #e9e3e3; }
 
@@ -7394,7 +7392,8 @@ footer {
       color: white;
       font-weight: 700;
       width: 80px;
-      border: none; }
+      border: none;
+      margin-bottom: 10px; }
       .search-section-1 .fieldset .form-buttons :nth-child(1):hover {
         background-color: #3f68ee; }
     .search-section-1 .fieldset .form-buttons :nth-child(2) {
@@ -7404,7 +7403,8 @@ footer {
       color: white;
       font-weight: 700;
       width: 120px;
-      border: none; }
+      border: none;
+      margin-bottom: 15px; }
       .search-section-1 .fieldset .form-buttons :nth-child(2):hover {
         background-color: #c48106; }
 
