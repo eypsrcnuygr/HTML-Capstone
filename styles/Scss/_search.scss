@@ -51,6 +51,7 @@
         width: 80px;
         border: none;
         margin-bottom: 10px;
+
         &:hover {
           background-color: rgb(63, 104, 238);
         }
@@ -70,7 +71,7 @@
           background-color: rgb(196, 129, 6);
         }
       }
-      
+
     }
   }
 }
@@ -120,7 +121,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        
+
 
         &>* {
           width: fit-content;
@@ -151,7 +152,7 @@
     }
 
     & article {
-      
+
       &:hover,
       &:focus {
         transform: scale(0.96);
@@ -173,7 +174,7 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        
+
         &>* {
           width: fit-content;
           min-width: 100px;
@@ -206,7 +207,7 @@
     }
 
     & article {
-      
+
       &:hover {
         transform: scale(0.96);
       }

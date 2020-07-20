@@ -1,4 +1,4 @@
-$color-red : #E45324;
+$color-red : #e45324;
 
 body {
   font-family: acumin-pro, sans-serif !important;
@@ -16,95 +16,12 @@ nav {
   }
 
   .burger-button {
-    background-color: #E45324;
+    background-color: #e45324;
   }
 
   .logo {
     width: 50px;
     height: 50px;
-  }
-}
-
-.section-1 {
-  opacity: 0.9;
-  position: relative;
-  height: 85%;
-
-  &::before {
-    content: "";
-    background: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80') no-repeat;
-    opacity: 0.8;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 105%;
-    z-index: 0;
-    background-size: cover;
-    background-position: center;
-  }
-
-  &:hover {
-    opacity: 1;
-  }
-
-  & .section-1-h3 {
-    padding-top: 30vh;
-    opacity: 0.9;
-    margin-bottom: 20px;
-    font-weight: 800;
-  }
-
-  & form {
-    background-color: rgb(209, 209, 209);
-    opacity: 0.9;
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding-bottom: 25px;
-
-    & h5 {
-      font-size: 1.1rem;
-    }
-  }
-
-  & div {
-    & button {
-      background-color: $color-red;
-      font-size: 1rem;
-      border: none;
-
-      &:hover {
-        background-color: red;
-      }
-    }
-  }
-
-
-  & >div {
-    width: 170px;
-    margin: 50px auto;
-    padding: 1rem 2rem;
-    font-weight: 800;
-    border-radius: 5px;
-    border: none;
-    z-index: 2;
-    opacity: 0.9;
-    background-color: #C7C8C7;
-
-    &:hover {
-      background-color: rgb(209, 215, 215);
-    }
-  }
-}
-
-.section-2 {
-  & article {
-    &i,
-    & h6 {
-      &:hover {
-        transform: translateY(-5px);
-      }
-    }
   }
 }
 
@@ -200,8 +117,6 @@ nav {
     left: -3rem !important;
   }
 
-  
-
   & .first-img {
     width: 100%;
     height: 100%;
@@ -225,40 +140,42 @@ nav {
     top: 15px;
   }
 
-  & >:nth-child(2) {
-    background-color: #E07C62;
+  & > :nth-child(2) {
+    background-color: #e07c62;
     min-height: 180px;
 
     & button {
-      color: #E07C62;
+      color: #e07c62;
       border: none;
       max-width: 200px;
       padding-top: 10px;
       padding-bottom: 10px;
+
       &:hover {
         background-color: rgb(233, 227, 227);
       }
     }
   }
 
-  & >:nth-child(3) {
-    background-color: #A8AEAA;
+  & > :nth-child(3) {
+    background-color: #a8aeaa;
     min-height: 180px;
 
     & button {
-      color: #A8AEAA;
+      color: #a8aeaa;
       border: none;
       max-width: 200px;
       padding-top: 10px;
       padding-bottom: 10px;
+
       &:hover {
         background-color: rgb(233, 227, 227);
       }
     }
   }
 
-  & >:nth-child(4) {
-    background-color: #509BD7;
+  & > :nth-child(4) {
+    background-color: #509bd7;
     min-height: 180px;
 
     & button {
@@ -271,6 +188,90 @@ nav {
     }
   }
 }
+
+.section-1 {
+  opacity: 0.9;
+  position: relative;
+  height: 85%;
+
+  &::before {
+    content: "";
+    background: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80') no-repeat;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+
+  & .section-1-h3 {
+    padding-top: 30vh;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+
+  & form {
+    background-color: rgb(209, 209, 209);
+    opacity: 0.9;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 25px;
+
+    & h5 {
+      font-size: 1.1rem;
+    }
+  }
+
+  & div {
+    & button {
+      background-color: $color-red;
+      font-size: 1rem;
+      border: none;
+
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+
+  & > div {
+    width: 170px;
+    margin: 50px auto;
+    padding: 1rem 2rem;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    z-index: 2;
+    opacity: 0.9;
+    background-color: #c7c8c7;
+
+    &:hover {
+      background-color: rgb(209, 215, 215);
+    }
+  }
+}
+
+.section-2 {
+  & article {
+    &i,
+    & h6 {
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+
 
 footer {
   background-color: rgb(0, 0, 0);
@@ -298,7 +299,7 @@ footer {
   }
 
   & .footer-last-part {
-    background-color: #1F1F1F;
+    background-color: #1f1f1f;
 
     & p {
       font-size: 0.6rem;
@@ -319,10 +320,8 @@ footer {
     grid-gap: 35px;
     padding-left: 3%;
     padding-right: 3%;
-  }
 
-  .section-2 {
-    & >h6 {
+    & > h6 {
       grid-column-start: 1;
       grid-column-end: 3;
     }
@@ -332,16 +331,13 @@ footer {
     & article {
       height: 225px !important;
 
-      & >div {
+      & > div {
         display: flex;
         flex-direction: column;
-
         justify-content: center;
         font-size: 1.4rem;
       }
     }
-
-   
   }
 }
 
@@ -364,5 +360,4 @@ footer {
       height: 250px !important;
     }
   }
-
 }

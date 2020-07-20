@@ -7167,68 +7167,14 @@ body {
   font-style: normal; }
 
 nav {
-  background-color: #E45324; }
+  background-color: #e45324; }
   nav .icon-colorized:hover {
     color: #d1d1d1 !important; }
   nav .burger-button {
-    background-color: #E45324; }
+    background-color: #e45324; }
   nav .logo {
     width: 50px;
     height: 50px; }
-
-.section-1 {
-  opacity: 0.9;
-  position: relative;
-  height: 85%; }
-  .section-1::before {
-    content: "";
-    background: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80") no-repeat;
-    opacity: 0.8;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 105%;
-    z-index: 0;
-    background-size: cover;
-    background-position: center; }
-  .section-1:hover {
-    opacity: 1; }
-  .section-1 .section-1-h3 {
-    padding-top: 30vh;
-    opacity: 0.9;
-    margin-bottom: 20px;
-    font-weight: 800; }
-  .section-1 form {
-    background-color: #d1d1d1;
-    opacity: 0.9;
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding-bottom: 25px; }
-    .section-1 form h5 {
-      font-size: 1.1rem; }
-  .section-1 div button {
-    background-color: #E45324;
-    font-size: 1rem;
-    border: none; }
-    .section-1 div button:hover {
-      background-color: red; }
-  .section-1 > div {
-    width: 170px;
-    margin: 50px auto;
-    padding: 1rem 2rem;
-    font-weight: 800;
-    border-radius: 5px;
-    border: none;
-    z-index: 2;
-    opacity: 0.9;
-    background-color: #C7C8C7; }
-    .section-1 > div:hover {
-      background-color: #d1d7d7; }
-
-.section-2 articlei:hover,
-.section-2 article h6:hover {
-  transform: translateY(-5px); }
 
 .section-3 .modified-column {
   width: 200px;
@@ -7323,10 +7269,10 @@ nav {
   top: 15px; }
 
 .section-3 > :nth-child(2) {
-  background-color: #E07C62;
+  background-color: #e07c62;
   min-height: 180px; }
   .section-3 > :nth-child(2) button {
-    color: #E07C62;
+    color: #e07c62;
     border: none;
     max-width: 200px;
     padding-top: 10px;
@@ -7335,10 +7281,10 @@ nav {
       background-color: #e9e3e3; }
 
 .section-3 > :nth-child(3) {
-  background-color: #A8AEAA;
+  background-color: #a8aeaa;
   min-height: 180px; }
   .section-3 > :nth-child(3) button {
-    color: #A8AEAA;
+    color: #a8aeaa;
     border: none;
     max-width: 200px;
     padding-top: 10px;
@@ -7347,7 +7293,7 @@ nav {
       background-color: #e9e3e3; }
 
 .section-3 > :nth-child(4) {
-  background-color: #509BD7;
+  background-color: #509bd7;
   min-height: 180px; }
   .section-3 > :nth-child(4) button {
     color: #A8AEAA;
@@ -7355,6 +7301,60 @@ nav {
     max-width: 220px; }
     .section-3 > :nth-child(4) button:hover {
       background-color: #e9e3e3; }
+
+.section-1 {
+  opacity: 0.9;
+  position: relative;
+  height: 85%; }
+  .section-1::before {
+    content: "";
+    background: url("https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-1.2.1&w=1000&q=80") no-repeat;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    z-index: 0;
+    background-size: cover;
+    background-position: center; }
+  .section-1:hover {
+    opacity: 1; }
+  .section-1 .section-1-h3 {
+    padding-top: 30vh;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    font-weight: 800; }
+  .section-1 form {
+    background-color: #d1d1d1;
+    opacity: 0.9;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 25px; }
+    .section-1 form h5 {
+      font-size: 1.1rem; }
+  .section-1 div button {
+    background-color: #e45324;
+    font-size: 1rem;
+    border: none; }
+    .section-1 div button:hover {
+      background-color: red; }
+  .section-1 > div {
+    width: 170px;
+    margin: 50px auto;
+    padding: 1rem 2rem;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    z-index: 2;
+    opacity: 0.9;
+    background-color: #c7c8c7; }
+    .section-1 > div:hover {
+      background-color: #d1d7d7; }
+
+.section-2 articlei:hover,
+.section-2 article h6:hover {
+  transform: translateY(-5px); }
 
 footer {
   background-color: black; }
@@ -7371,7 +7371,7 @@ footer {
     footer .logo:hover {
       transform: scale(1.2); }
   footer .footer-last-part {
-    background-color: #1F1F1F; }
+    background-color: #1f1f1f; }
     footer .footer-last-part p {
       font-size: 0.6rem; }
 
@@ -7384,9 +7384,9 @@ footer {
     grid-gap: 35px;
     padding-left: 3%;
     padding-right: 3%; }
-  .section-2 > h6 {
-    grid-column-start: 1;
-    grid-column-end: 3; }
+    .section-2 > h6 {
+      grid-column-start: 1;
+      grid-column-end: 3; }
   .section-3 article {
     height: 225px !important; }
     .section-3 article > div {
@@ -7539,6 +7539,63 @@ footer {
     .search-section-2 article:hover {
       transform: scale(0.96); } }
 
+.event-section-2 {
+  box-shadow: 0 0 1rem 0.01rem #929399;
+  width: 90%;
+  margin: 10px auto; }
+  .event-section-2 article {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 15px; }
+  .event-section-2 h4 {
+    color: red;
+    font-weight: 800;
+    margin-bottom: 25px;
+    padding-left: 12px; }
+  .event-section-2 div {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #9b9a9a;
+    margin-bottom: 5px; }
+    .event-section-2 div h5 {
+      font-weight: 800;
+      margin-right: 10px; }
+    .event-section-2 div p {
+      color: #9ac5e8;
+      font-weight: 700; }
+  .event-section-2 .event-section-2-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none; }
+    .event-section-2 .event-section-2-icons a {
+      color: black;
+      font-weight: 600; }
+    .event-section-2 .event-section-2-icons p {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: black; }
+    .event-section-2 .event-section-2-icons i {
+      color: #9ac5e8;
+      margin-bottom: 0; }
+
+.event-section-3 {
+  text-align: center;
+  clear: both; }
+  .event-section-3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red; }
+    .event-section-3 div h4 {
+      margin-left: 10px;
+      font-size: 1.9rem; }
+    .event-section-3 div .fas {
+      margin-bottom: 15px; }
+  .event-section-3 iframe {
+    width: 90%;
+    height: 400px; }
+
 .event-section-1 {
   box-shadow: 0 0 1rem 0.01rem #929399;
   display: flex;
@@ -7578,63 +7635,6 @@ footer {
       .event-section-1 article button:hover, .event-section-1 article button:focus {
         background-color: greenyellow; }
 
-.event-section-2 {
-  box-shadow: 0 0 1rem 0.01rem #929399;
-  width: 90%;
-  margin: 10px auto; }
-  .event-section-2 article {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 15px; }
-  .event-section-2 h4 {
-    color: red;
-    font-weight: 800;
-    margin-bottom: 25px;
-    padding-left: 12px; }
-  .event-section-2 div {
-    display: flex;
-    justify-content: center;
-    border: 1px solid #9b9a9a;
-    margin-bottom: 5px; }
-    .event-section-2 div h5 {
-      font-weight: 800;
-      margin-right: 10px; }
-    .event-section-2 div p {
-      color: #9AC5E8;
-      font-weight: 700; }
-  .event-section-2 .event-section-2-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: none; }
-    .event-section-2 .event-section-2-icons a {
-      color: black;
-      font-weight: 600; }
-    .event-section-2 .event-section-2-icons p {
-      margin-top: 0;
-      margin-bottom: 0;
-      color: black; }
-    .event-section-2 .event-section-2-icons i {
-      color: #9AC5E8;
-      margin-bottom: 0; }
-
-.event-section-3 {
-  text-align: center;
-  clear: both; }
-  .event-section-3 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red; }
-    .event-section-3 div h4 {
-      margin-left: 10px;
-      font-size: 1.9rem; }
-    .event-section-3 div .fas {
-      margin-bottom: 15px; }
-  .event-section-3 iframe {
-    width: 90%;
-    height: 400px; }
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .event-section-1 {
     margin-top: 15%; }
@@ -7651,7 +7651,7 @@ footer {
       margin-bottom: 0;
       color: black !important; }
     .event-section-2-icons i {
-      color: #9AC5E8;
+      color: #9ac5e8;
       margin-bottom: 0; }
   .event-section-3 {
     margin-bottom: 20px; } }
@@ -7694,7 +7694,7 @@ footer {
           margin-top: 0;
           margin-bottom: 0; }
         body .event-section-2 .event-section-2-icons i {
-          color: #9AC5E8;
+          color: #9ac5e8;
           margin-bottom: 0; }
     body .event-section-3 {
       margin-bottom: 20px; }
