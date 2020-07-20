@@ -1,4 +1,4 @@
-# NewsWeek Clone
+# Eventify HTML Capstone
 
 > This is my HTML/CSS capstone project at Microverse.
 > It is an event page around Europe and it contains 3 pages.
@@ -17,6 +17,7 @@ It is a fully responsive page.
 - node-sass (downloaded as npm package)
 - Netlify
 - Font Awesome
+- Autoprefixer
 
 ## Live Demo
 
