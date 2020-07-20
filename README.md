@@ -12,6 +12,7 @@ I used event pictures, and event details from [Biletix](https://www.biletix.com/
 
 ## Video Presentation
 
+Here is my [video presentation](https://www.loom.com/share/da5fc6eea64c42c992382a22095b022f) for this project.
 
 
 ## Built With
