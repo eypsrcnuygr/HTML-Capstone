@@ -79,6 +79,7 @@ Give a ⭐️ if you like this project!
 
 - Thanks are owed to the designer, [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE), for his design.
 - Logo has been made from [Small Seo Tools](https://smallseotools.com/)'s site.
+- The index page's pictures are taken from [unsplash](https://unsplash.com/).
 - Cem Yılmaz is an popular comedian in Turkey. Check him.
 
 ## 📝 License
