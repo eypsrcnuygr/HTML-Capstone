@@ -7320,7 +7320,8 @@ nav {
     padding-top: 30vh;
     opacity: 0.9;
     margin-bottom: 20px;
-    font-weight: 800; }
+    font-weight: 800;
+    font-size: 2rem; }
   .section-1 form {
     background-color: #d1d1d1;
     opacity: 0.9;
@@ -7411,10 +7412,11 @@ footer {
     font-size: 1.2rem;
     width: 100%;
     padding-top: 35%; }
-    .search-section-1 form h3 {
+    .search-section-1 form h1 {
       color: #929399;
       width: 80%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      font-size: 2rem; }
     .search-section-1 form input,
     .search-section-1 form select {
       border: none;
@@ -7609,6 +7611,8 @@ footer {
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
+  .event-section-1 h1 {
+    font-size: 2rem; }
   .event-section-1 article {
     width: 100%;
     display: flex;
