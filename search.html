@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./build/index.css">
+  <link rel="stylesheet" href="https://use.typekit.net/tae4pwz.css">
+  <script src="https://kit.fontawesome.com/27543839ee.js" crossorigin="anonymous"></script>
+  <title>Search</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="d-flex flex-column align-items-center flex-md-row justify-content-around mw-100 fixed-top pb-2">
+      <section class="d-flex pt-2">
+        <a href="./index.html" class="d-flex text-decoration-none"><img src="./assets/Logomaker-3d_Logos-2020718.jpg" alt="logo" class="logo"><h3 class="text-light">Eventify</h3></a>
+        
+      </section>
+      <div class="d-flex mt-2 pl-4 pl-lg-0">
+        <div class="mr-4"><a href="search.html" class=" text-decoration-none"><i class="fas fa-search text-light icon-colorized">
+            </i> <p class="d-md-inline text-white d-none ml-2 font-weight-bolder">Search</p></a>
+         
+        </div>
+        <div class="mr-4"><a href="#" class="text-decoration-none"><i class="far fa-user-circle text-light icon-colorized">
+            </i><p class="d-md-inline text-white d-none ml-2 font-weight-bolder">About</p></a>
+        </div>
+        <div class="mr-4"><a href="#" class="text-decoration-none"><i class="fas fa-wifi text-light icon-colorized">
+            </i><p class="d-md-inline text-white d-none ml-2 font-weight-bolder">Blog</p></a> 
+        </div>
+        <div><button class="d-md-inline d-none burger-button border-0 text-white font-weight-bolder" type="button"><i class="fas fa-bars text-light icon-colorized mr-2">
+            </i>More</button><i class="d-md-none fas fa-bars text-light icon-colorized mr-2">
+            </i></div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="search-section-1 mt-3">
+      <form>
+        <h1 class="text-center">Filter by name, category, country, distance and price range</h1>
+        <div class="fieldset">
+          <div>
+            <label for="name">Sort by name</label>
+            <input name="name" type="text" id="name">
+          </div>
+          <div>
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="music">Music</option>
+              <option value="sport">Sport</option>
+              <option value="theater">Theater</option>
+              <option value="family">Family</option>
+              <option value="education and more">Education & more</option>
+            </select>
+          </div>
+          <div>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="Ru">Ru</option>
+              <option value="Ge">Ge</option>
+              <option value="Fr">Fr</option>
+              <option value="Uk">Uk</option>
+              <option value="Sp">Sp</option>
+              <option value="Tr">Tr</option>
+              <option value="It">It</option>
+              <option value="Gr">Gr</option>
+              <option value="Hl">Hl</option>
+              <option value="Bl">Bl</option>
+              <option value="Sw">Sw</option>
+              <option value="Dn">Dn</option>
+            </select>
+          </div>
+          <div>
+            <label for="distance">Distance</label>
+            <select id="distance" name="distance">
+              <option value="les than 50km">Less than 50 km</option>
+              <option value="In between 50-100km">In between 50-100km</option>
+              <option value="In between 100-200km">In between 100-200km</option>
+              <option value="In between 200-500km">In between 200-500km</option>
+              <option value="More than 500km">More than 500km</option>
+            </select>
+          </div>
+          <div>
+            <label for="price">Price</label>
+            <select id="price" name="price">
+              <option value="les than 50$">Less than 50$</option>
+              <option value="In between 50-100$">In between 50-100$</option>
+              <option value="In between 100-200$">In between 100-200$</option>
+              <option value="In between 200-500$">In between 200-500$</option>
+              <option value="More than 500$">More than 500$</option>
+            </select>
+          </div>
+          <div class="form-buttons">
+            <button name="search" type="button" class="btn-1">Search</button>
+            <button name="clear" type="button" class="btn-2">Clear Filter</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="search-section-2 text-center w-100">
+      <h3 class="h-3">Search Results Found 6 Event(s)</h3>
+      <article>
+        <a href="./event.html">
+          <h5>CMYLMZ DIAMOND ELITE </h5>
+          <img src="./assets/cmylmz.jpeg" alt="Cem">
+        </a>
+
+      </article>
+      <article>
+        <a href="./event.html">
+          <h5>EZHEL</h5>
+          <img src="./assets/ezhel.jpg" alt="Ezhel">
+        </a>
+
+      </article>
+      <article>
+        <a href="./event.html">
+          <h5>SERTAB ERENER</h5>
+          <img src="./assets/sertab.jpeg" alt="Sertab">
+        </a>
+
+      </article>
+      <article>
+        <a href="./event.html">
+          <h5>80's & 90's NIGHTS</h5>
+          <img src="./assets/retrobus.png" alt="Retrobus">
+        </a>
+
+      </article>
+      <article>
+        <a href="./event.html">
+          <h5>BABY AND CHILD</h5>
+          <img src="./assets/baby.png" alt="Baby">
+        </a>
+
+      </article>
+      <article>
+        <a href="./event.html">
+          <h5>HAREM CABARET</h5>
+          <img src="./assets/harem.png" alt="Harem">
+        </a>
+
+      </article>
+    </section>
+  </main>
+  <footer class="text-light pt-md-5 pt-3">
+
+    <ul class="list-unstyled d-flex flex-wrap justify-content-between justify-content-md-center flex-md-nowrap mx-2">
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2 " href="">HOME</a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2" href="">SEARCH</a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2" href="">ABOUT US</a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2 " href="">ADVERTISE</a></li>
+      <li class="d-none d-md-inline"><a class="text-light font-weight-bolder mr-lg-4 mr-2" href="#header"><img src="./assets/Logomaker-3d_Logos-2020718.jpg" alt="logo" class="logo"></a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2" href="">FACEBOOK</a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2 " href="">TWITTER</a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2" href="">BLOG</a></li>
+      <li><a class="text-light font-weight-bolder mr-lg-4 mr-2" href="">GOOGLE+</a></li>
+    </ul>
+    <div class="d-block d-md-flex justify-content-around">
+      <div class="text-center">
+        <h6 class="font-weight-bolder">SUBSCRIBE</h6>
+        <div class="d-md-flex">
+          <input type="email" placeholder="jdoe@pataschule.com" class="bg-dark border-0 mb-2">
+          <button class="border-0 mb-2 ml-md-3 footer-btn" type="button">SEND</button>
+        </div>
+      </div>
+      <div class="text-center">
+        <h6 class="font-weight-bolder">CONTACT</h6>
+        <p>For more information <br>+254 720 637 837 <br>jdoe@patashule.com</p>
+      </div>
+      <div class="text-center">
+        <h6 class="font-weight-bolder">ABOUT</h6>
+        <p class="mx-1">We are the world biggest event organization <br> and we are getting bigger everyday.</p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between px-lg-3 px-1 footer-last-part py-4 align-items-end">
+      <div>
+        <a href="#" class="text-white"><i class="fab fa-facebook-f mx-md-1"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter mx-md-1"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram mx-md-1"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-google-plus-g mx-md-1"></i></a>
+      </div>
+      <div>
+        <p class="my-0">EVENTIFY 2020. ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
