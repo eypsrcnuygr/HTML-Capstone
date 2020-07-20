@@ -7454,7 +7454,7 @@ footer {
       font-weight: 700;
       width: 120px;
       border: none;
-      margin-bottom: 15px; }
+      margin-bottom: 10px; }
       .search-section-1 .fieldset .form-buttons :nth-child(2):hover {
         background-color: #c48106; }
 
@@ -7568,7 +7568,6 @@ footer {
       margin-top: 15px;
       margin-bottom: 10px;
       font-size: 0.9rem;
-      width: 70%;
       text-align: center; }
     .event-section-1 article button {
       border: none;
