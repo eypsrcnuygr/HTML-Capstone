@@ -3,7 +3,7 @@
   width: 100%;
 
   form {
-    background-color: #EEEEEE;
+    background-color: #eee;
     font-size: 1.2rem;
     width: 100%;
     padding-top: 35%;
@@ -26,7 +26,7 @@
     margin: 0 auto;
     width: 80%;
 
-    &>* {
+    & > * {
       margin: 10px auto;
       width: 80%;
       border: none;
@@ -42,7 +42,7 @@
     }
 
     & .form-buttons {
-      & :nth-child(1) {
+      & .btn-1 {
         background-color: #457eb4;
         border-radius: 5px;
         padding: 5px 4px;
@@ -57,7 +57,7 @@
         }
       }
 
-      & :nth-child(2) {
+      & .btn-2 {
         background-color: #e5ab5a;
         border-radius: 5px;
         padding: 5px 4px;
@@ -71,7 +71,6 @@
           background-color: rgb(196, 129, 6);
         }
       }
-
     }
   }
 }
@@ -103,12 +102,12 @@
     }
   }
 
-  & h3 {
-    color: #6F6A68;
+  & .h-3 {
+    color: #6f6a68;
   }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .search-section-1 {
     form {
       padding-top: 10%;
@@ -122,8 +121,7 @@
         flex-wrap: wrap;
         justify-content: center;
 
-
-        &>* {
+        & > * {
           width: fit-content;
           margin: 10px 4px;
         }
@@ -151,12 +149,9 @@
       grid-column-end: 3;
     }
 
-    & article {
-
-      &:hover,
-      &:focus {
-        transform: scale(0.96);
-      }
+    & article:hover,
+    & article:focus {
+      transform: scale(0.96);
     }
   }
 }
@@ -175,7 +170,7 @@
         flex-wrap: nowrap;
         justify-content: center;
 
-        &>* {
+        & > * {
           width: fit-content;
           min-width: 100px;
           margin: 10px 4px;
@@ -206,11 +201,8 @@
       grid-column-end: 4;
     }
 
-    & article {
-
-      &:hover {
-        transform: scale(0.96);
-      }
+    & article:hover {
+      transform: scale(0.96);
     }
   }
 }

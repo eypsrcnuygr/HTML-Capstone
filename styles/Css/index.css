@@ -7268,6 +7268,9 @@ nav {
   position: relative;
   top: 15px; }
 
+.section-3 button:hover {
+  background-color: #e9e3e3; }
+
 .section-3 > :nth-child(2) {
   background-color: #e07c62;
   min-height: 180px; }
@@ -7277,8 +7280,6 @@ nav {
     max-width: 200px;
     padding-top: 10px;
     padding-bottom: 10px; }
-    .section-3 > :nth-child(2) button:hover {
-      background-color: #e9e3e3; }
 
 .section-3 > :nth-child(3) {
   background-color: #a8aeaa;
@@ -7289,18 +7290,14 @@ nav {
     max-width: 200px;
     padding-top: 10px;
     padding-bottom: 10px; }
-    .section-3 > :nth-child(3) button:hover {
-      background-color: #e9e3e3; }
 
 .section-3 > :nth-child(4) {
   background-color: #509bd7;
   min-height: 180px; }
   .section-3 > :nth-child(4) button {
-    color: #A8AEAA;
+    color: #a8aeaa;
     border: none;
     max-width: 220px; }
-    .section-3 > :nth-child(4) button:hover {
-      background-color: #e9e3e3; }
 
 .section-1 {
   opacity: 0.9;
@@ -7333,11 +7330,11 @@ nav {
     padding-bottom: 25px; }
     .section-1 form h5 {
       font-size: 1.1rem; }
-  .section-1 div button {
+  .section-1 div .login-btn {
     background-color: #e45324;
     font-size: 1rem;
     border: none; }
-    .section-1 div button:hover {
+    .section-1 div .login-btn:hover {
       background-color: red; }
   .section-1 > div {
     width: 170px;
@@ -7360,10 +7357,10 @@ footer {
   background-color: black; }
   footer p {
     font-size: 0.8rem; }
-  footer button {
+  footer .footer-btn {
     background-color: #4b4949;
     color: white; }
-    footer button:hover {
+    footer .footer-btn:hover {
       background-color: gray; }
   footer .logo {
     width: 50px;
@@ -7410,7 +7407,7 @@ footer {
   margin-top: 7%;
   width: 100%; }
   .search-section-1 form {
-    background-color: #EEEEEE;
+    background-color: #eee;
     font-size: 1.2rem;
     width: 100%;
     padding-top: 35%; }
@@ -7435,7 +7432,7 @@ footer {
       flex-direction: column; }
     .search-section-1 .fieldset label {
       font-weight: 700; }
-    .search-section-1 .fieldset .form-buttons :nth-child(1) {
+    .search-section-1 .fieldset .form-buttons .btn-1 {
       background-color: #457eb4;
       border-radius: 5px;
       padding: 5px 4px;
@@ -7444,9 +7441,9 @@ footer {
       width: 80px;
       border: none;
       margin-bottom: 10px; }
-      .search-section-1 .fieldset .form-buttons :nth-child(1):hover {
+      .search-section-1 .fieldset .form-buttons .btn-1:hover {
         background-color: #3f68ee; }
-    .search-section-1 .fieldset .form-buttons :nth-child(2) {
+    .search-section-1 .fieldset .form-buttons .btn-2 {
       background-color: #e5ab5a;
       border-radius: 5px;
       padding: 5px 4px;
@@ -7455,7 +7452,7 @@ footer {
       width: 120px;
       border: none;
       margin-bottom: 10px; }
-      .search-section-1 .fieldset .form-buttons :nth-child(2):hover {
+      .search-section-1 .fieldset .form-buttons .btn-2:hover {
         background-color: #c48106; }
 
 .search-section-2 {
@@ -7473,8 +7470,8 @@ footer {
       font-weight: 700; }
     .search-section-2 article:hover, .search-section-2 article:focus {
       transform: scale(0.96); }
-  .search-section-2 h3 {
-    color: #6F6A68; }
+  .search-section-2 .h-3 {
+    color: #6f6a68; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .search-section-1 form {

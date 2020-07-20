@@ -140,6 +140,12 @@ nav {
     top: 15px;
   }
 
+  & button {
+    &:hover {
+      background-color: rgb(233, 227, 227);
+    }
+  }
+
   & > :nth-child(2) {
     background-color: #e07c62;
     min-height: 180px;
@@ -150,10 +156,6 @@ nav {
       max-width: 200px;
       padding-top: 10px;
       padding-bottom: 10px;
-
-      &:hover {
-        background-color: rgb(233, 227, 227);
-      }
     }
   }
 
@@ -167,10 +169,6 @@ nav {
       max-width: 200px;
       padding-top: 10px;
       padding-bottom: 10px;
-
-      &:hover {
-        background-color: rgb(233, 227, 227);
-      }
     }
   }
 
@@ -179,12 +177,9 @@ nav {
     min-height: 180px;
 
     & button {
-      color: #A8AEAA;
+      color: #a8aeaa;
       border: none;
       max-width: 220px;
-      &:hover {
-        background-color: rgb(233, 227, 227);
-      }
     }
   }
 }
@@ -232,7 +227,7 @@ nav {
   }
 
   & div {
-    & button {
+    & .login-btn {
       background-color: $color-red;
       font-size: 1rem;
       border: none;
@@ -271,8 +266,6 @@ nav {
   }
 }
 
-
-
 footer {
   background-color: rgb(0, 0, 0);
 
@@ -280,7 +273,7 @@ footer {
     font-size: 0.8rem;
   }
 
-  & button {
+  & .footer-btn {
     background-color: rgb(75, 73, 73);
     color: white;
 
