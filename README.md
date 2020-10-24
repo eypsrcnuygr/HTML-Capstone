@@ -6,7 +6,7 @@ Home page, Search page, and Event page.
 
 ![screenshot](./assets/2f995325563385.563475472fb37.png)<br><br>
 
-I was given this design of [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE)'s to follow, mirroring its structure, typography and colors as > I built my own event website.
+I was given this design of [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE)'s to follow, mirroring its structure, typography and colors as I built my own event website.
 
 I used event pictures, and event details from [Biletix](https://www.biletix.com/anasayfa/TURKIYE/tr)'s site.
 
