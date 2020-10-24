@@ -1,8 +1,8 @@
 # Eventify HTML Capstone
 
-> This is my HTML/CSS capstone project at Microverse.
-> It is an event page around Europe and it contains 3 pages.
-> Home page, Search page, and Event page.
+This is my HTML/CSS capstone project at Microverse.
+It is an event page around Europe and it contains 3 pages.
+Home page, Search page, and Event page.
 
 ![screenshot](./assets/2f995325563385.563475472fb37.png)<br><br>
 
